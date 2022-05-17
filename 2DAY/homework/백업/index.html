@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <div id="header">
+        <h1>이 력 서</h1>
+    </div>
+  
+    <!-- wrapper -->
+    <div id="wrapper">
+
+        <!-- content -->
+        <div id="content">
+
+            <!-- image -->
+            <div>
+                <img src="https://cdn.pixabay.com/photo/2014/05/07/06/44/cat-339400_960_720.jpg">
+            </div>
+            <!-- name -->
+            <div>
+                <h3>
+                    <label for="name">이름</label>
+                </h3>
+                <span class="box int_name">
+                    <input type="text" name="name" class="int" placeholder="홍길동" autofocus>
+                </span>
+            </div>
+
+            <!-- gender -->
+            <div>
+                <h3>
+                    <label for="gender">성별</label>
+                </h3>
+                <span class="box gender_code">
+                    <select id="gender" class="sel">
+                        <option>성별</option>
+                        <option value="M">남자</option>
+                        <option value="F">여자</option>
+                    </select>
+                </span>
+            </div>
+
+            <!-- birth -->
+            <div>
+                <h3>
+                    <label for="birth">생년월일</label>
+                </h3>
+                <span class="box int_birth">
+                    <input type="date" class="int">
+                </span>
+                
+            </div>
+
+            <!-- phone number -->
+            <div>
+                <h3>
+                    <label for="phone">연락처</label>
+                </h3>
+                <span class="box int_phone">
+                    <input type="phone" name="phone" class="int" placeholder="010-0000-0000">
+                </span>
+            </div>
+
+            <!-- email -->
+            <div>
+                <h3>
+                    <label for="email">이메일</label>
+                </h3>
+                <span class="box int_email">
+                    <input type="email" name="email" class="int" placeholder="aaa@mail.com">
+                </span>
+            </div>
+
+            <!-- send button -->
+            <div class="btn_area">
+                <button type="button" id="btnSend">
+                    <span>제출하기</span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>

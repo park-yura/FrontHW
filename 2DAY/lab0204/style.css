@@ -1,0 +1,43 @@
+/*
+    16. * 표시는 모든 태그에 적용되는 것을 세팅하는 것
+*/
+
+* {
+    color: green;
+}
+
+li {
+    color:blue;
+}
+
+/* #은 아이디 */
+
+#bts {
+    color: indigo;
+}
+
+.red {
+    width: 100px;
+    height: 100px;
+    background: yellow; 
+}
+
+button:hover{
+    color : red;
+    background: cyan;
+}
+
+a[href="https://www.daum.net"]{
+    color: rgb(113, 241, 21);
+}
+
+a[href^="https://www.goo"]{
+    color: orange;
+}
+
+/* 겹치는게 있으면 마지막껄로 덮어씌워짐 */
+a[href$="googledaum.net"]{
+    color: darkgoldenrod;
+}
+
+

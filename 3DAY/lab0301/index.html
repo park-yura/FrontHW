@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폴리텍 반응형 페이지 만들기</title>
+    <!-- 14. style 파일을 따로 작성해서 import 하기
+            1) style / style 
+            2) link rel="stylesheet" href="style.css"-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Titillium+Web:wght@300&family=Ubuntu:wght@400;500;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fd3ad8981e.js" crossorigin="anonymous"></script>
+    <script src="poly.js" defer></script>
+    <!-- defer는 body가 끝나는 시점에 시작되게 하는 명령어 -->
+</head>
+<body>
+    
+    <nav class ="navbar">
+        <div class="navbar_logo">
+            <i class="fa-solid fa-school"></i>
+            <a href="#">DataAnalysis</a>
+        </div>
+
+        <ul class="navbar_menu">
+            <!-- li>a*5 -->
+            <li>
+                <a href="">Home</a></li>
+            <li>
+                <a href="">Photo</a></li>
+            <li>
+                <a href="">Schedule</a></li>
+            <li>
+                <a href="">FAQ</a></li>
+            <li>
+                <a href="">Booking</a></li>
+                
+        </ul>
+
+        <ul class="navbar_icons">
+            <li><i class="fa-brands fa-facebook-square"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+        </ul>
+
+        <a href="#" class="navbar_togleBtn">
+            <i><i class="fa-solid fa-bars"></i></i>
+        </a>
+    </nav>
+</body>
+</html>
