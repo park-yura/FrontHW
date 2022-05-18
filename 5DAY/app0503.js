@@ -11,6 +11,8 @@
  * lower(전체 소문자) : 전체 소문자 ex) let, const 예약어, 키워드
  * upper(전체 대문자) : 전체 대문자 ex) const PI = 3.14; 
  *                                      const PI = Math.PI;
+ *                     const LOCAL_HOST = "https://www.daum.net";
+ *                     const DRIVER = "jdbc.oracle.driver.OracleDriver";
  */
 
 /**
@@ -75,10 +77,12 @@
 // console.log(coffee); 
 
 // 해당 객체에 프로퍼티가 있는지 확인하는 연산자
+// javascript에서는 ""이나 ''같다.
 // true, true, true가 나옴
+// in
 // console.log("price" in coffee);
 // console.log("type" in coffee);
-// coffee 객체에는 없는 속성이나 js 최상의 객체인 object에 있는 속성도 사용할 수 있기 때문에 true가 나옴
+// coffee 객체에는 없는 속성이나 js 최상의 객체인 Object에 있는 속성도 사용할 수 있기 때문에 true가 나옴
 // js 모든 객체는 object를 상속 받는다. 
 // console.log("toString" in coffee);
 
