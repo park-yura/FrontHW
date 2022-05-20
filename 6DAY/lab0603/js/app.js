@@ -1,6 +1,6 @@
 // arrow fuction(화살표 함수)
 // 브라우저에서 테스트 할 수 있는 API이다.
-// setTimeout
+// setTimeout : ms 지연 후에 실행되는 함수 , 콜백 함수
 // setTimeout(function() {
 // console.log("화살표 함수입니다.");
 // },2000) // 1000ms = 1초

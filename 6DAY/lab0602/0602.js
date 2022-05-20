@@ -49,7 +49,7 @@
 // const와 immutable array 확인해보기
 // function fruit() {
 //     const list = ["apple", "orange", "watermelon"];
-//     list = "podo";
+//     list = "podo"; // x
 // }
 
 // fruit();
@@ -125,7 +125,12 @@
 // let {name: myName, age:myAge} = obj;
 // console.log(myName, myAge);
 
-// Destruncturing 활용 JSON 파싱
+// Destruncturing 활용 JSON(Javascript Object Notation) 파싱
+// xml -> json
+// <samsung>
+//      <name></name>
+//      <price></price>
+// </samsung>
 var news = [
     {
         "title":"sbs",
@@ -153,7 +158,7 @@ var news = [
 let[,mbc1] = news; // 위치 데이터 뽑음
 console.log(mbc1);
 
-// let[title, imgurl] = mbc1;
+// let{title, imgurl} = mbc;
 // console.log(title, imgurl); 
 
 let [,{title, imgurl}] = news;
