@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+    <script src="https://kit.fontawesome.com/fd3ad8981e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="calendar.js"></script>
+</head>
+<body>
+    <section class="main">
+        <h1 class="title">Calendar & Todo-list</h1>
+        <div class="month">
+            <span class="left">
+                <i class="fa-solid fa-angle-left"></i>
+            </span>
+            <span class="right">
+                <i class="fa-solid fa-angle-right"></i>
+            </span>
+            <p class="month-name"></p>
+        </div>
+        <div class="day">
+            <ul class="dayList clearfix">
+                <li>MON</li>
+                <li>TUE</li>
+                <li>WED</li>
+                <li>THU</li>
+                <li>FRI</li>
+                <li>SAT</li>
+                <li>SUN</li>
+            </ul>
+        </div>
+        <ul class="day clearfix"></ul>
+    </section>
+
+    <section class="todo">
+        <h1 class="todoTitle"> 
+            Today To-Do list
+        </h1> 
+        <div class="textTodo">
+            <input type="text" class="todoText">
+            <button class="todoText add">Add</button>
+            <button class="todoText del">Delete</button>
+            <button class="todoText allreset">All reset</button>
+        </div>
+        <ul class="todoList"></ul>
+    </section>
+
+</body>
+</html>
