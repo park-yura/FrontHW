@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Todo List</title>
+</head>
+<body>
+    <section class="todoContainer">
+        <!-- Create form -->
+        <div class="todoList">
+            <form action="#" id="createForm">
+                <input type="text" id="add-task" placeholder="New Task">
+                <input type="submit" onclick="CreateTask()" value="Create">
+            </form>
+
+        <!-- Update form -->
+            <form action="#" id="updateForm">
+                <input type="text" id="update-task" >
+                <input type="submit" value="Update" >
+                <a onclick="CloseInput()" id="close"></a>
+            </form>
+
+        <!-- Counter -->
+            <p id="counter"></p>
+
+        <!-- todo List Table -->
+            <table>
+                <tr><th>ToDo List</th></tr>
+                <tbody id="todo-tasks"></tbody>
+            </table>
+        </div>
+    </section>
+</body>
+</html>
